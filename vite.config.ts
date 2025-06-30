@@ -7,7 +7,7 @@ const repoName = "mayo-landing"; // your GitHub repo name
 
 export default defineConfig(({ mode }) => {
   return {
-    base: mode === "production" ? `/${repoName}/` : "/",
+    base: "/",
     server: {
       host: "::",
       port: 8080,
